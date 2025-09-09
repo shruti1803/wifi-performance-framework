@@ -1,5 +1,7 @@
-<img width="1490" height="1030" alt="Screenshot 2025-09-09 211615" src="https://github.com/user-attachments/assets/ff8602a2-a692-45e1-afbf-e6896b714a7e" />
 # Wi-Fi Performance Testing & Automation Framework
+<img width="932" height="383" alt="Screenshot 2025-09-09 220013" src="https://github.com/user-attachments/assets/65626417-d1cf-4dcb-8d7b-b76ee0cff059" />
+<img width="1490" height="1030" alt="Screenshot 2025-09-09 211615" src="https://github.com/user-attachments/assets/ee289e01-4f86-4870-be09-983fe15f485f" />
+
 
 ## Project Overview
 This is a **Python-based framework** to **test, monitor, and predict Wi-Fi network performance**.  
