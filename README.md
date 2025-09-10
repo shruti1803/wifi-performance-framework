@@ -20,6 +20,23 @@ It automates latency, throughput, jitter, and packet loss tests, provides a **li
 - Flags unusual latency spikes, bandwidth drops, or packet loss.
 - Integrated with dashboard and PDF reports.
 
+Why it matters for managers:
+
+- In large-scale networks, Wi-Fi performance directly impacts user experience, productivity, and customer satisfaction. Manual testing is time-consuming, inconsistent, and difficult to scale.
+
+- This framework addresses those challenges by:
+
+- Automating Wi-Fi testing → reduces time, human error, and cost of validation
+
+- Providing repeatable, data-driven benchmarks → enables faster release cycles and higher confidence in deployments
+
+- Supporting scalability → adaptable for enterprise, IoT, and multi-device test environments
+
+- Leveraging ML insights → helps anticipate performance degradation before it impacts end users
+
+For managers, this means faster go-to-market, improved reliability, and measurable performance assurance, all while aligning with Cisco’s mission of delivering secure, high-quality connectivity at scale.
+  
+
 ---
 
 ## Usage
