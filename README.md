@@ -10,17 +10,81 @@ It automates latency, throughput, jitter, and packet loss tests, provides a **li
 ---
 
 ## Key Features
+##Automated Wi-Fi Performance Testing
 
-### 1. Real-Time Dashboard
-- Live plotting of Wi-Fi performance metrics using Matplotlib.
+- Runs latency, throughput, jitter, and packet loss tests.
+
+- Supports different load conditions (e.g., multiple clients, bandwidth limits).
+
+- Logs results in structured CSV files for later analysis.
+
+##Real-Time Dashboard
+
+- Live plotting of key metrics (latency, jitter, throughput, packet loss).
+
 - Updates dynamically as tests run.
 
-### 2. Machine Learning Prediction
-- Random Forest Classifier predicts potential Wi-Fi degradation.
-- Flags unusual latency spikes, bandwidth drops, or packet loss.
-- Integrated with dashboard and PDF reports.
+- Clear visualization for performance monitoring.
 
-Why it matters for managers:
+##Machine Learning Integration
+
+- Random Forest Classifier trained on historical data.
+
+- Predicts when Wi-Fi performance might degrade.
+
+- Flags anomalies such as latency spikes, bandwidth drops, or packet loss.
+
+- Integrated seamlessly with the live dashboard and test runs.
+
+##Automated Reporting
+
+- Generates professional PDF reports summarizing results.
+
+- Includes graphs, test metrics, and ML predictions.
+
+- Reports saved automatically in a reports/ folder.
+
+##Anomaly Detection
+
+- AI-based detection of unusual behavior (e.g., sudden jitter or packet loss).
+
+- Highlights anomalies directly in reports.
+
+##Extensible Framework
+
+- Easy to add new metrics or test cases.
+
+- Modular design for plugging in different ML models.
+
+- Can scale from single laptop simulation to multi-client real tests.
+
+##Scalability
+
+- Uses iperf for traffic simulation (server & client modes).
+
+- Supports multiple clients under different bandwidth/load conditions.
+
+##Data Visualization
+
+- CSV → Graphs (Matplotlib).
+
+- Real-time and static plotting.
+
+- Easy to extend with advanced dashboards (e.g., Plotly/Streamlit in future).
+
+##Automation & Scripting
+
+- Python scripts handle test execution, logging, analysis, and visualization.
+
+- Can be scheduled or run repeatedly without manual effort.
+
+##Version Control & Collaboration
+
+- Structured repository on GitHub.
+
+- .gitignore configured to exclude large/generated files (CSV, cache, pickle).
+
+##Why it matters for managers:
 
 - In large-scale networks, Wi-Fi performance directly impacts user experience, productivity, and customer satisfaction. Manual testing is time-consuming, inconsistent, and difficult to scale.
 
